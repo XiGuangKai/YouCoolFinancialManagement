@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_menu_option_system_setting"
+        android:title="@string/menu_option_system_setting"
+        android:visible="true" />
+    <item android:id="@+id/item_menu_option_retreat_safely"
+        android:title="@string/menu_option_retreat_safely"
+        android:visible="true"/>
+</menu>

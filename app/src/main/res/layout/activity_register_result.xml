@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.example.financialmanagement.view.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@color/gray_font"
+        android:text="@string/tv_new_register_ok"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/tv_register_ok_username_show"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <CheckBox
+            android:id="@+id/ck_register_ok_agreen"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/checkbox"
+            android:button="@null"
+            android:checked="true"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/tv_register_ok_result"
+            android:textColor="@color/gray_font"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"/>
+
+        <com.example.financialmanagement.view.TextURLView
+            android:id="@+id/tv_tiaokuan"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_success"
+        android:layout_height="60sp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/login_btn"
+        android:textColor="@color/whites"
+        android:textSize="16sp"
+        android:text="@string/btn_register_success"/>
+</LinearLayout>
+

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">理财通</string>
+    <string name="app_name">U酷理财</string>
     <string name="et_account_hint">用户名</string>
     <string name="et_password_hint">密码</string>
     <string name="login">登录</string>
